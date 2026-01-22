@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span class="app-title" routerLink="/employees">
+    <mat-icon class="logo-icon">people</mat-icon>
+    {{ appTitle }}
+  </span>
+  <span class="spacer"></span>
+  <nav class="navbar-nav">
+    <button mat-button routerLink="/employees" routerLinkActive="active">
+      <mat-icon>list</mat-icon>
+      Employees
+    </button>
+  </nav>
+</mat-toolbar>
